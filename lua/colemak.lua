@@ -101,20 +101,16 @@ local mappings = {
     { modes = { "x" }, lhs = "gh", rhs = "K" },
 
     -- Window navigation
-    { modes = { "n", "x" }, lhs = "<C-w>n", rhs = "<C-w>h" },
-    { modes = { "n", "x" }, lhs = "<C-w>u", rhs = "<C-w>k" },
-    { modes = { "n", "x" }, lhs = "<C-w>e", rhs = "<C-w>j" },
-    { modes = { "n", "x" }, lhs = "<C-w>i", rhs = "<C-w>l" },
+    { modes = { "n" }, lhs = "<C-w>n", rhs = "<C-w>h" },
+    { modes = { "n" }, lhs = "<C-w>u", rhs = "<C-w>k" },
+    { modes = { "n" }, lhs = "<C-w>e", rhs = "<C-w>j" },
+    { modes = { "n" }, lhs = "<C-w>i", rhs = "<C-w>l" },
     { modes = { "n" }, lhs = "<C-w>N", rhs = "<C-w>H" },
-    { modes = { "x" }, lhs = "<C-w>n", rhs = "<C-w>h" },
     { modes = { "n" }, lhs = "<C-w>U", rhs = "<C-w>K" },
-    { modes = { "x" }, lhs = "<C-w>u", rhs = "<C-w>k" },
     { modes = { "n" }, lhs = "<C-w>E", rhs = "<C-w>J" },
-    { modes = { "x" }, lhs = "<C-w>e", rhs = "<C-w>j" },
     { modes = { "n" }, lhs = "<C-w>I", rhs = "<C-w>L" },
-    { modes = { "x" }, lhs = "<C-w>i", rhs = "<C-w>l" },
     -- Disable spawning empty buffer
-    { modes = { "n", "x" }, lhs = "<C-w><C-n>", rhs = "<nop>" },
+    { modes = { "n" }, lhs = "<C-w><C-n>", rhs = "<nop>" },
 }
 
 function colemak.setup(_)
