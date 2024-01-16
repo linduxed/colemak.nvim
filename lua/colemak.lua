@@ -27,7 +27,9 @@ local mappings = {
 
     -- End of word left/right
     { modes = { "n", "o", "x" }, lhs = "N", rhs = "ge", desc = "End of word back" },
+    { modes = { "n", "o", "x" }, lhs = "<M-n>", rhs = "gE", desc = "End of WORD back" },
     { modes = { "n", "o", "x" }, lhs = "I", rhs = "e", desc = "End of word forward" },
+    { modes = { "n", "o", "x" }, lhs = "<M-i>", rhs = "E", desc = "End of WORD forward" },
 
     -- Text objects
     -- diw is drw. daw is now dtw.
