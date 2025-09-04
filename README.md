@@ -1,5 +1,11 @@
 # colemak.nvim
 
+## NOTE: Not actively used
+
+Since 2025-07-10, I no longer use this plugin in my daily workflow. It remains functional and available for anyone who finds it useful. See rationale in the following [dotfiles](https://github.com/linduxed/dotfiles/) commit: https://github.com/linduxed/dotfiles/commit/cf8411a341a57a4b014151c7b15ae6dffd1c9279
+
+## Introduction
+
 This set of remappings adjusts Neovim to work with the Colemak keyboard layout.
 
 This repo is a continuation of my [colemak.vim repo][2], with the main purpose being transitioning to using the Neovim Lua API.
